@@ -302,3 +302,22 @@ textarea {
         page-break-after: avoid;
     }
 }
+.menu{
+    background: #222;
+}
+.menu ul{
+    margin: 0;padding: 0;
+    list-style: none;
+}
+.menu li{
+    float: left;
+}
+.menu a{
+    display: block;
+    padding:15px 25px;
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover{
+    background: #444;
+}
