@@ -302,6 +302,9 @@ textarea {
         page-break-after: avoid;
     }
 }
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 .menu{
     background: #222;
 }
