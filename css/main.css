@@ -306,7 +306,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 .menu{
-    background: #222;
+    background: red;
 }
 .menu ul{
     margin: 0;padding: 0;
@@ -322,5 +322,6 @@ body{
     text-decoration: none;
 }
 .menu a:hover{
-    background: #444;
+    background: white;
+    color:red;
 }
