@@ -306,7 +306,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 .menu{
-    background: red;
+    background: #222;
 }
 .menu ul{
     margin: 0;padding: 0;
@@ -320,8 +320,19 @@ body{
     padding:15px 25px;
     color: white;
     text-decoration: none;
+    border-right:1px solid #444;
 }
 .menu a:hover{
-    background: white;
-    color:red;
+    background: #444;
+}
+.menu .dropdown{
+    position: absolute;
+    background: #222;
+    display: none;
+}
+.menu .dropdown li{
+    float: none;
+}
+.menu li:hover .dropdown{
+    display: block;
 }
